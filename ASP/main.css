@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.top{
+    width: 100%;
+    height: 8px;
+    background: green;
+}
+.menu{
+    width: 1010px;
+    border-left:1px solid #dedede; 
+    border-right:1px solid #dedede;
+    height: 30px;
+    border-bottom: 2px solid green;
+    margin: 0 auto;
+    line-height: 30px;
+    margin-top:10px; 
+   
+
+}
+.menu a{
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.7;
+    margin-right:50.5px;
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.menu a:hover{
+    color: #AA3;
+    opacity:1 ;
+   
+}
+.wrapper{
+    width: 998px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid #dedede;
+    height: 500px; 
+
+}
+.container{
+    float: left;
+    border-right:1px solid #dedede; 
+    width: 745px;
+    height: 500px;
+
+}
+.right-panel{
+   width: 250px;
+   float: right;
+  
+   height: 500px;
+}
+.login h4{
+    padding: 8px;
+    margin-left:-1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: #000;
+    opacity: 0.7;
+}
+.login-area{
+    margin-top: 10px;
+}
+.login-area .text{
+    width: 95%;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    height: 25px;
+    text-indent: 10px;
+    border:1px solid #dedede;
+    
+}
+.login-area .label{
+    font-size:14px;
+    color: #000;
+    opacity: 5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-left: 7px;
+
+
+}
+.login-area .check{
+    margin-left:4px;
+}
+.login-area a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 14px;
+}
+.login-area a:hover{
+    color: #AA3;
+}
+.login-area .lgnbtn{
+    background: #5cb85c;
+    width: 44%;
+    height: 30px;
+    border: 1px solid #4cae4c;
+    color: #fff;
+    opacity: 5;
+    margin-top: 5px;
+}
+.login-area .lgnbtn:hover{
+    cursor: pointer;
+}
+.i{
+    margin-left: 18px;
+    display: block;
+    float: left;
+}
+.login-area .kytbtn{
+    width: 51%;
+    display: block;
+    float: right;
+    height: 28px;
+    background: #f0ad4e;
+    border: 1px solid #eea236;
+    color: #fff;
+    opacity: 5;
+    margin-top: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 7px;
+    line-height: 28px;
+
+  
+}
+.login-area .kytbtn:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.line{
+    height:1px;
+    width: 98%;
+    margin: 0 auto;
+    background: #dedede;
+}
+.clr{
+    height: 1px;
+    clear: both;
+}
+.footer{
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+    background:#0066ff;
+    opacity: 5;
+    text-align: center;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 14px;
+    line-height: 50px;
+    
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-top: 40px;
+}
